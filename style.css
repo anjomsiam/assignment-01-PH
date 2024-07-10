@@ -90,22 +90,28 @@ h1{
 
 
 /* 3rd section */
+div.div-write{
+    height: 218px;
+}
+
 
 .sec{
-    position: absolute;
+    /* position: absolute;
     
   
     position: absolute;
+    
+    /* left: 20%; */
     width:  50%;
-    left: 20%;
 
-    /* margin-top: 5%; */
-    /* margin:150px auto; */
+    margin-top: 10%;
+    margin:150px auto; */
+    
+    align-items: center;
+    justify-content: center;
   
 }
-.div-control{
-    margin-top: 10%;
-}
+
 .sec-image{
   float: right;
   max-width: 320px;
@@ -209,22 +215,175 @@ h1{
 
   -----------------------
   .all-control{
-    margin-top: 15px;
+    margin-top: 5px;
+    
   }
 
   .all-control2{
-    margin-top: 15%;
+    margin-top: 5%;
   }
   .all-control3{
     margin-top: 15%;
   }
-  /* }
-  .pera2{
-    margin-left: 50% ;
-  } */
+  
+  div.pera2{
+    height:218px;
+  }
   .pera{
     margin-left:50%;
   }
   /* .div-write{
     margin-left: 50%;
   } */
+
+
+
+---------------------------------------
+
+.never{
+    font-family: monospace;
+    color: #0D1321;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing:0%;
+}
+.giveup{
+    text-align: center;
+    color: #0D1321;
+    margin-top: 10px;
+
+}
+.frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border:10px solid #0D1321
+    border-radius:20px ;
+
+
+}
+
+.head{
+    font-family: monospace;
+    color: #0D1321;
+    text-align:center;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing:0%;
+    margin-top: 5%;
+}
+.head-p{
+    text-align:center;
+    font-family: monospace;
+    color: #0D1321;
+    margin: 30px;
+    font-size:16px;
+}
+
+.same{
+    background-color: #fbedea;
+
+    
+    display:inline-block;
+    
+    width: 200px;
+    height: 180px;
+    
+    padding: 40px;
+    margin: auto;
+    margin-left:30px;
+    margin-top: 10%;
+    text-align: center;
+    vertical-align: top;
+
+}
+.iktu-same{
+    background-color:#eff4ff;
+    display:inline-block;
+    
+    width: 200px;
+    height: 180px;
+    
+    padding: 40px;
+    margin: auto;
+    margin-left:30px;
+    margin-top: 10%;
+    text-align: center;
+    vertical-align: top;
+
+}
+.Onek-same{
+    background-color:#fffde6;
+    display:inline-block;
+     width: 200px;
+    height: 180px;
+    padding: 40px;
+    margin: auto;
+    margin-left:30px;
+    margin-top: 10%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.bap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+
+.footer-pic{
+    background-image: url(./assets/handshake.jpg);
+    width: 980px;
+    height: 280px;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+     
+    color: white;
+    text-align: center;
+    margin:auto;
+    margin-top:5%;
+    
+    border-radius: 16px;
+
+}
+.last{
+    width: 400px;
+    height: 10px;
+    display: inline;
+    align-items:start;
+    justify-content: start;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 15px;
+    
+}
+.sesh{
+    width:120px;
+    height: 57px;
+    display:inline;
+    align-items:center;
+    justify-content: center;
+    margin-top: 15%;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+    
+
+}
+.oh{
+    margin-top:5px;
+  
+}
+    
+   
