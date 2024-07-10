@@ -105,7 +105,7 @@ div.div-write{
     width:  50%;
 
     margin-top: 10%;
-    margin:150px auto; */
+    margin:150px auto; 
     
     align-items: center;
     justify-content: center;
@@ -259,8 +259,8 @@ div.div-write{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-    border:10px solid #0D1321
-    border-radius:20px ;
+    border:20px solid rgba(250, 247, 247, 0.996);
+    border-radius: 5%;
 
 
 }
@@ -387,3 +387,20 @@ div.div-write{
 }
     
    
+.yes{
+    display: inline;
+    justify-content: first baseline;
+    margin-top: 10px;
+    width: 6%;
+    margin-top: 10%;
+
+}
+.at-last{
+    font-size: px;
+    display: inline;
+    align-items:start;
+    justify-content: start;
+}
+.facebook{
+    background-image:url(./assets/facebook.png);
+}
